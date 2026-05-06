@@ -21,10 +21,10 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://protfolio-frontend-tawny.vercel.app",
+      "https://protfolio-frontend-tawny.vercel.app"
     ],
     credentials: true,
-  }),
+  })
 );
 
 // Create default admin function
