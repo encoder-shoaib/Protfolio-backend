@@ -12,12 +12,11 @@ const projectSchema = new mongoose.Schema({
   category: {
     type: String,
     enum: [
+      "Web Development",
       "E-Commerce",
+      "Research & AI",
       "Automation",
-      "Analytics",
-      "Media",
-      "Template",
-      "Productivity",
+      "Productivity Tools",
     ],
     required: true,
   },
