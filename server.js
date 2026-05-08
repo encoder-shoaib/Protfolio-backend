@@ -21,7 +21,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://protfolio-frontend-pi.vercel.app",
+      "https://protfolio-frontend-alpha.vercel.app",
     ],
     credentials: true,
   }),
